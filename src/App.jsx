@@ -8,6 +8,15 @@ import JSXExamples from './JSXExamples'
 import PersonalInfo from './PersonalInfo'
 import BrokenComponent from './BrokenComponent'
 
+// w01d02
+import FundamentalRules from './JSXFundamentalRules'
+import Expression from './Expression'
+import ArrayLists from './ArrayLists'
+import Styling from './Styling'
+import AppProps from './AppProps'
+import AppLayout from './layout/AppLayout'
+import AppProduct from './product/AppProduct'
+
 // function App() {
 //   const [count, setCount] = useState(0)
 
@@ -51,5 +60,5 @@ function App() {
 
 
 // Changes the according to declared component
-export default BrokenComponent
+export default AppProduct
 

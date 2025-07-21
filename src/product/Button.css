@@ -1,0 +1,15 @@
+.details-icon {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    font-size: 30px;
+    background-color: #353538;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    margin-left: auto;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
