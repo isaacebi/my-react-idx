@@ -1,6 +1,7 @@
 .body-container {
     position: relative;
     text-align: center;
+    display: flex;
 }
 
 .text-container {
@@ -21,4 +22,6 @@
 
 .bg-img {
     border-radius: 50px;
+    min-width: 80px;
+    max-width: 300px;
 }

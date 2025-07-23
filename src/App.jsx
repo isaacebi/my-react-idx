@@ -17,6 +17,10 @@ import AppProps from './AppProps'
 import AppLayout from './layout/AppLayout'
 import AppProduct from './product/AppProduct'
 
+// w01d03
+import UserCardv1 from './userCard/variantOne'
+import AppRestaurant from './restaurant/AppRestaurant'
+
 // function App() {
 //   const [count, setCount] = useState(0)
 
@@ -60,5 +64,5 @@ function App() {
 
 
 // Changes the according to declared component
-export default AppProduct
+export default AppRestaurant
 

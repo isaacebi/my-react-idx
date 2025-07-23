@@ -1,0 +1,43 @@
+.test-img {
+    max-width: 260px;
+    max-height: 260px;
+}
+
+.main-menu {
+    display: flex;
+    gap: 10px;
+}
+
+.text {
+    max-width: 200px;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.text-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.food-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.food-description {
+    font-size: 14px;
+}
+
+.order-btn {
+    background: #2c5aa0;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.order-btn:hover {
+    background: #1e3d6f;
+}
