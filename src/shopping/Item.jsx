@@ -17,6 +17,7 @@ function CartItem({
   const handleQuantityChange = (newQuantity) => {
     if (newQuantity >= 1) {
       setCurrentQuantity(newQuantity);
+      onQuantityChange(itemName, newQuantity); // Update the value from Item to Cart
     }
   };
 
