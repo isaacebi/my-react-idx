@@ -1,0 +1,50 @@
+.store-header {
+    display: flex;
+}
+
+.product-item {
+    display: flex;
+    align-items: flex-start;
+}
+
+.product-action {
+    display: flex;
+}
+
+.product-left-side {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+
+.product-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-middle-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-name {
+    margin: 0 0 12px 0;
+    gap: 8px;
+}
+
+.item-price {
+    display: flex;
+    gap: 8px;
+}
+
+.product-right-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    padding-left: 10px;
+}

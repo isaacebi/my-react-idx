@@ -18,8 +18,16 @@ import AppLayout from './layout/AppLayout'
 import AppProduct from './product/AppProduct'
 
 // w01d03
-import UserCardv1 from './userCard/variantOne'
+import UserCardv1 from './userCard/VariantOne'
 import AppRestaurant from './restaurant/AppRestaurant'
+
+// w01d04
+import Counter from './Counter'
+import UserCardv2 from './userCard/VariantTwo'
+import UserCardv3 from './userCard/VariantThree'
+import TodoListv1 from './toDoList/VariantOne'
+import Temperature from './converter/Temperature'
+import Cart from './shopping/Cart'
 
 // function App() {
 //   const [count, setCount] = useState(0)
@@ -64,5 +72,5 @@ function App() {
 
 
 // Changes the according to declared component
-export default AppRestaurant
+export default Cart
 
