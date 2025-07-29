@@ -37,6 +37,9 @@ import ContactForm from './ContactForm'
 import DynamicList from './DynamicList'
 import AppDisplayImage from './displayImage/AppDisplayImage'
 
+// w01d05
+import Dashboard from './Dashboard'
+
 // function App() {
 //   const [count, setCount] = useState(0)
 
@@ -80,5 +83,5 @@ function App() {
 
 
 // Changes the according to declared component
-export default AppDisplayImage
+export default Dashboard
 
