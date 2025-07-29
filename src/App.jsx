@@ -29,6 +29,14 @@ import TodoListv1 from './toDoList/VariantOne'
 import Temperature from './converter/Temperature'
 import Cart from './shopping/Cart'
 
+// w01d05
+import CustomButton from './EventSystem'
+import InteractiveButton from './InteractiveButton'
+import KeyboardDemo from './KeyboardDemo'
+import ContactForm from './ContactForm'
+import DynamicList from './DynamicList'
+import AppDisplayImage from './displayImage/AppDisplayImage'
+
 // function App() {
 //   const [count, setCount] = useState(0)
 
@@ -72,5 +80,5 @@ function App() {
 
 
 // Changes the according to declared component
-export default Cart
+export default AppDisplayImage
 
