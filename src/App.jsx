@@ -37,6 +37,11 @@ import ContactForm from './ContactForm'
 import DynamicList from './DynamicList'
 import AppDisplayImage from './displayImage/AppDisplayImage'
 
+// w01d06
+import Dashboard from './Dashboard'
+import ProductCatalog from './ProductCatalog'
+import CommentsSystem from './CommentsSystem'
+
 // function App() {
 //   const [count, setCount] = useState(0)
 
@@ -80,5 +85,5 @@ function App() {
 
 
 // Changes the according to declared component
-export default AppDisplayImage
+export default CommentsSystem
 
