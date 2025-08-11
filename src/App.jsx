@@ -47,6 +47,9 @@ import RealTimeClock from './RealTimeClock'
 import WindowTracker from './WindowTracker'
 import UserProfile from './UserProfile'
 
+// w01d08
+import UserManagement from './UserManagement'
+
 // function App() {
 //   const [count, setCount] = useState(0)
 
@@ -92,5 +95,5 @@ function App() {
 
 
 // Changes the according to declared component
-export default App
+export default UserManagement
 
