@@ -42,6 +42,11 @@ import Dashboard from './Dashboard'
 import ProductCatalog from './ProductCatalog'
 import CommentsSystem from './CommentsSystem'
 
+// w01d07
+import RealTimeClock from './RealTimeClock'
+import WindowTracker from './WindowTracker'
+import UserProfile from './UserProfile'
+
 // function App() {
 //   const [count, setCount] = useState(0)
 
@@ -79,11 +84,13 @@ function App() {
         <p>This is my first React component</p>
         <p>Current time: {new Date().toLocaleTimeString()}</p>
       </header>
+      <UserProfile userId={1}></UserProfile>
+      <UserProfile userId={2}></UserProfile>
     </div>
   )
 }
 
 
 // Changes the according to declared component
-export default CommentsSystem
+export default App
 
